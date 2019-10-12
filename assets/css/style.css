@@ -1,0 +1,67 @@
+ * {
+     margin: 0%;
+ }
+
+ body {
+     background-image: url('./../images/background.jpg');
+ }
+
+
+ #title {
+     background-color: darkgoldenrod;
+     width: 25%;
+ }
+
+ #rules {
+     background-color: hotpink;
+     color: black;
+     width: 40%;
+     height: 30%;
+     font-size: 20px;
+     border: groove;
+ }
+
+ #counter {
+     background-color: chartreuse;
+     color: black;
+     width: 10%;
+ }
+
+ #random {
+     background-color: coral;
+     width: 15%;
+ }
+
+ .container {
+     width: 100%;
+     display: flex;
+     flex-flow: row wrap;
+ }
+
+ .container3 {
+     width: 100%;
+     display: flex;
+     flex-flow: column;
+
+ }
+
+ #total {
+     background-color: brown;
+     color: black;
+     width: 15%;
+     height: 90px;
+     font-size: 20px;
+ }
+
+ #text {
+     background-color: darkslateblue;
+     width: 15%;
+     color: black;
+
+ }
+
+ #goal {
+     background-color: chocolate;
+     width: 15%;
+     height: 77px;
+ }
