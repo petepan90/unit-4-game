@@ -35,18 +35,19 @@
         </div>
         <section class="container">
             <div id="counter" class="item">
-                <p>wins<span class="points">0</span></p>
-                <p>losses<span class="loser">0</span></p>
+                <p>wins<span class="wins">0</span></p>
+                <p>losses<span class="losses">0</span></p>
             </div>
             <div id="goal" class="item">
-                <p><span class="winningscore">0</span></p>
+
+                <p><span class="winningnumber">0</span></p>
             </div>
         </section>
 
 
         <br>
         <div id="images">
-            <img src="assets/images/crystal1.jpg" onclick="" alt="" class="crystal" id="c1">
+            <img src="assets/images/crystal1.jpg" onclick="click1()" alt="" class="crystal" id="c1">
             <img src="assets/images/crystal2.jpg" onclick="" alt="" class='crystal' id='c2'>
             <img src="assets/images/crystal3.jpg" onclick="" alt="" class='crystal' id='c3'>
             <img src="assets/images/crystal4.jpg" onclick="" alt="" class='crystal' id="c4">
@@ -56,7 +57,7 @@
         <div id="text">
             <p id="score">your total score is</p>
         </div>
-        <p id="total">0</p>
+        <p><span id="total">0</span></p>
     </section>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
