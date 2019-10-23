@@ -2,10 +2,17 @@ $(document).ready(function () {
 
     // let wins = 0 ;
     // let losses = 0;
+    // Set inital values for user's wins and losses
+    // Set variables for the wins and losses HTML elements
 
 
     // random number object
-    let randomnumber = (Math.floor(Math.random() * 10));
+    // Search how to generate a random number within a specified range (In this case between 19 and 120)
+    let randomnumber = (Math.floor(Math.random() * 120));
+    // generate a random number for each button
+    // add an onClick function for each button so the user's score is incremented by that buttons value
+    // IE-- buttonOne = 4, if the user clicks on buttonOne, user score increases by 4
+    let buttonOne = (Math.floor(Math.random() * 12))
     // the score to win
     let winningnumber = document.getElementsByClassName('.winningnumber');
     // loses
@@ -15,9 +22,27 @@ $(document).ready(function () {
 
     let total = document.getElementById('#total');
 
+    let crystal = document.getElementsByClassName('.crystal');
+
+    // When a user wins/loses the game, generate a new randomnumber, generate new button numbers, AND clear the winningscore
     if (winningnumber = randomnumber) {
         $('.winningnumber').html(randomnumber);
+        onclick = function click() {
+            $('#total').html(randomnumber++);
+
+        };
+
     };
+
+    // Add losing condition when winningnumber is greater than random number
+
+    function myFunction(event) {
+        $('.crystal').html(randomnumber);
+        console.log(myfunction);
+
+
+    };
+
 
     // $('img').bind('click', function () {
     // total = randomnumber;
